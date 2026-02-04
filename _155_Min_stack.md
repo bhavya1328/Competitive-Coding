@@ -48,7 +48,15 @@ Methods pop, top and getMin operations will always be called on non-empty stacks
 At most 3 * 104 calls will be made to push, pop, top, and getMin.
 
 ## Approach:
+-When pushing:
+Push value to main stack
+Push min(value, currentMin) to min stack
 
+-When popping:
+Pop from both stacks
+
+-getMin():
+Top of min stack
 
 
 # Code
