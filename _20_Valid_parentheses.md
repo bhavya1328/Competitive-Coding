@@ -55,7 +55,21 @@ Constraints:
 s consists of parentheses only '()[]{}'.
 
 ## Approach:
+- Create a Stack to store opening brackets.
 
+- Traverse the string character by character:
+   -If the character is an opening bracket (, {, [
+   → push it into the stack
+
+- If the character is a closing bracket ), }, ]:
+    -If the stack is empty → invalid (no matching opening)
+    -Pop the top element from the stack
+    -Check if it matches the closing bracket
+    -If not → invalid
+
+- After traversal:
+   -If stack is empty → valid
+   -Else → invalid (some opening brackets not closed)
 
 
 ## Code:
