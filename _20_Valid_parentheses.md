@@ -73,6 +73,7 @@ s consists of parentheses only '()[]{}'.
 
 
 ## Code:
+```java
 class Solution {
     public boolean isValid(String s) {
         LinkedList<Character> stack = new LinkedList<>();
@@ -99,3 +100,4 @@ class Solution {
         return stack.isEmpty();
     }
 }
+```
