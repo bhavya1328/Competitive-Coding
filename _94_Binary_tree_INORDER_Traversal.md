@@ -179,8 +179,8 @@ class Solution {
             return;
 
         //LPR
-        helper(root.left);
-        ans.add(root.val);
-        helper(root.right);
+        helper(root.left); //L
+        ans.add(root.val); //P
+        helper(root.right);//R
     }
 }
