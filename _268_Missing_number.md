@@ -46,6 +46,7 @@ n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 8 is the
 ## approach: 
 
 ## code:
+```java
 class Solution {
     public int missingNumber(int[] nums) {
         int n = nums.length;
@@ -61,3 +62,4 @@ class Solution {
         
     }
 }
+```

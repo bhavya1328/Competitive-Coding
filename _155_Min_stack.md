@@ -60,6 +60,7 @@ Top of min stack
 
 
 # Code
+```java
 class MinStack {
  LinkedList<Integer> stk; //=newLinkedList<>();
  LinkedList<Integer> minstk;
@@ -101,7 +102,7 @@ class MinStack {
         
     }
 }
-
+```
 /**
  * Your MinStack object will be instantiated and called as such:
  * MinStack obj = new MinStack();

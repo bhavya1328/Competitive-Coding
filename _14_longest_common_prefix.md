@@ -60,6 +60,7 @@ If mismatch → stop
 Return substring from 0 to index.
 
 ## Code:
+```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
 
@@ -83,3 +84,4 @@ class Solution {
             return index==0?"" : str1.substring(0,index);  
     } 
 }
+```

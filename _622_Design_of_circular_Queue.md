@@ -54,6 +54,7 @@ At most 3000 calls will be made to enQueue, deQueue, Front, Rear, isEmpty, and i
 
 ## approach: 
 ## code:
+```java
 class MyCircularQueue {
 
     int[] queue;
@@ -117,6 +118,7 @@ class MyCircularQueue {
         
     }
 }
+```
 
 /**
  * Your MyCircularQueue object will be instantiated and called as such:

@@ -167,6 +167,7 @@ Final → [1,3,2]
  *     }
  * }
  */
+```java
 class Solution {
     List<Integer> ans = new ArrayList<>();
     public List<Integer> inorderTraversal(TreeNode root) {
@@ -184,3 +185,4 @@ class Solution {
         helper(root.right);//R
     }
 }
+```
