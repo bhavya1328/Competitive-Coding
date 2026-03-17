@@ -52,6 +52,7 @@ Else → move left (right = mid - 1)
 
 Return right (floor value)
 ## code:
+```java
 class Solution {
     public int mySqrt(int x) {
         if (x == 0 || x == 1) return x;
@@ -71,3 +72,4 @@ class Solution {
         return right;
     }
 }
+```
